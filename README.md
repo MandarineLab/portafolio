@@ -26,15 +26,19 @@ Análisis de datos | Resolución de problemas | Comunicación efectiva | Trabajo
 ## Análisis de patrones en el Padrón RUC
 En un contexto económico en constante cambio, el análisis de datos administrativos como el Padrón RUC resulta clave para comprender el **comportamiento** y las **características** de los contribuyentes. Este padrón, administrado por la **SUNAT**, contiene información detallada sobre las actividades económicas, ubicación geográfica y otros aspectos relevantes de las personas naturales y jurídicas inscritas como contribuyentes. 
 
-#### Herramientas y tipo de proyecto
-![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-357ebd?style=for-the-badge)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23357ebd.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Limpieza de datos](https://img.shields.io/badge/Limpieza_de_datos-295F98?style=for-the-badge)
-![Transformación de datos](https://img.shields.io/badge/Transformación_de_datos-295F98?style=for-the-badge)
-![Análisis de datos](https://img.shields.io/badge/Análisis_de_datos-295F98?style=for-the-badge)
-![Modelos de predicción](https://img.shields.io/badge/Modelos_de_predicción-295F98?style=for-the-badge)
+### Herramientas y tipo de proyecto
+
+![Python](https://img.shields.io/badge/Python-357ebd?style=for-the-badge&logo=python&logoColor=white)  
+![pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)  
+![NumPy](https://img.shields.io/badge/NumPy-%23357ebd.svg?style=for-the-badge&logo=numpy&logoColor=white)  
+![Matplotlib](https://img.shields.io/badge/Matplotlib-357ebd?style=for-the-badge)  
+![Data Cleaning](https://img.shields.io/badge/Limpieza_de_datos-295F98?style=for-the-badge)  
+![Data Transformation](https://img.shields.io/badge/Transformación_de_datos-295F98?style=for-the-badge)  
+![Data Filtering](https://img.shields.io/badge/Filtrado_por_región-295F98?style=for-the-badge)  
+![Automated Processing](https://img.shields.io/badge/Automatización_de_procesos-295F98?style=for-the-badge)  
+![RUC Analysis](https://img.shields.io/badge/Análisis_del_Padrón_RUC-295F98?style=for-the-badge)  
+![Región Costa](https://img.shields.io/badge/Filtrado_Región_Costa-295F98?style=for-the-badge)  
+
 
 ### Preguntas clave
 1. ¿Cómo se distribuyen las empresas activas en comercio exterior en los departamentos de la región Costa?
