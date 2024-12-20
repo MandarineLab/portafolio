@@ -39,7 +39,7 @@ En un contexto económico en constante cambio, el análisis de datos administrat
 ### Preguntas clave
 1. ¿Cómo se distribuyen las empresas activas en comercio exterior en los departamentos de la región Costa?
 2. ¿Qué diferencias existen en el número promedio de trabajadores según el tipo de facturación y contabilidad?
-3. ¿Qué patrones se observan entre el número de trabajadores y el estado del comercio exterior (comercio_resumen) en los departamentos de la Costa?
+3. ¿Qué patrones se observan entre el número de trabajadores y el estado del comercio exterior `comercio_resumen` en los departamentos de la Costa?
 
 ### Metodología
 - **Preprocesamiento de datos:**
@@ -48,27 +48,21 @@ En un contexto económico en constante cambio, el análisis de datos administrat
 - **Explorartory Data Analysis (EDA):**
 - Se realizó un análisis descriptivo para explorar el número de empresas activas e inactivas en comercio exterior por departamento.
 - Se calcularon medidas estadísticas (promedio, mediana, percentiles) del número de trabajadores según comercio_resumen, tipofacturacion y tipocontabilidad.
+- **Automatización para el procesamiento de información:**
+- Se diseñó una función en *Python* para automatizar la carga, filtrado, procesamiento y limpieza del padrón RUC.
+- Se aplicó la función a la base del siguiente periodo (agosto 2024).
 
-### Conclusiones y recomendaciones
+### Conclusiones 
 
-#### Factores críticos de retención:
-- La proximidad al gimnasio, contratos más largos, la participación en sesiones grupales y mayor frecuencia de visitas están fuertemente asociados con una menor tasa de cancelación.
-- Clientes jóvenes, con contratos cortos y baja frecuencia de visitas, tienen mayores tasas de cancelación.
-
-#### Estrategias recomendadas:
-- **Extender contratos cortos:** Ofrecer incentivos para ampliar contratos de 1 mes.
-- **Promover actividades grupales:** Diseñar campañas que destaquen los beneficios de participar en sesiones grupales.
-- **Campañas personalizadas:** Utilizar el modelo predictivo para identificar clientes en riesgo y ofrecer promociones específicas.
-- **Segmentación proactiva:** Clasificar clientes nuevos por edad y duración de contrato para diseñar estrategias de retención desde el inicio.
+#### Factores críticos de facturación:
+- Si sumamos las categorías que incluyen **computarizado** (`computarizado` y `manual/computarizado`), obtenemos el 47.66% Esto significa que casi la mitad de las empresas han adoptado, al menos en parte, métodos computarizados de facturación, lo que refleja una tendencia hacia la digitalización.
+- A pesar de esta tendencia, el alto porcentaje de facturación `manual` (50.66%) sugiere que muchas empresas todavía no han dado el salto hacia la modernización completa.
 
 ### Visualizaciones destacadas
-1. **Distribución de cancelación según duración del contrato:** Observamos que quienes cancelaron suelen contratar en su mayoría 1 mes, al igual que quienes no cancelan. Sin embargo, quienes permanecen suelen también contratar por periodos de 1 año y 6 meses, mientras que los que cancelan en su minoría contratan en dichos periodos.
+1. **Distribución porcentual de empresas activas e inactivas por departamento:** Observamos que la mayoría de las empresas activas en el comercio exterior (importación y exportación) en la región costa son Lima y Callao.
 ![distribucion_porcentual_empresas_activas](/assets/img/distribucion_porcentual_empresas_activas.jpg)
 
-3. **Matriz de correlaciones:** Se encontró que Las características `month_to_end_contract` y `contract_period` están altamente correlacionadas (0.9), lo que sugiere que se debe tener cuidado con la multicolinealidad al desarrollar modelos predictivos.
+2. **Distribución porcentual de Empresas por Tipo de Facturación:** Facturación `manual` es el tipo más usado, con el 50.66% de las empresas. Asimismo, la facturación por `computarizado` ocupa el tercer lugar (23.18%).
 ![distribucion_porcentual_tipo_facturacion](/assets/img/distribucion_porcentual_tipo_facturacion.jpg)
-
-4. **Análisis de clústeres:** El dendrograma muestran cómo los clientes se agrupan en segmentos distintos basados en sus características, donde el número óptimo de clústeres sugerido es 4.
-![Dendrogram](/assets/img/p01_dendrogram.png)
 
 **Explora más detalles del proyecto en el [repositorio completo](https://github.com/MaleGoma/customer-retention-analysis).**
