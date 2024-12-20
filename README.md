@@ -23,8 +23,8 @@ Análisis de datos | Resolución de problemas | Comunicación efectiva | Trabajo
 
 # Proyectos seleccionados
 
-## Análisis de ......
-En todas las industrias, la retención de clientes es fundamental para garantizar **ingresos sostenibles** y **reducir los costos asociados con la adquisición de nuevos clientes**. Identificar los factores clave que influyen en la retención y cancelación permite al gimnasio Model Fitness anticiparse a los riesgos de abandono, **diseñar estrategias de fidelización efectivas** y **personalizar las experiencias para cada cliente**.
+## Análisis de patrones en el Padrón RUC
+En un contexto económico en constante cambio, el análisis de datos administrativos como el Padrón RUC resulta clave para comprender el **comportamiento** y las **características** de los contribuyentes. Este padrón, administrado por la **SUNAT**, contiene información detallada sobre las actividades económicas, ubicación geográfica y otros aspectos relevantes de las personas naturales y jurídicas inscritas como contribuyentes. 
 
 #### Herramientas y tipo de proyecto
 ![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white)
@@ -37,15 +37,17 @@ En todas las industrias, la retención de clientes es fundamental para garantiza
 ![Modelos de predicción](https://img.shields.io/badge/Modelos_de_predicción-295F98?style=for-the-badge)
 
 ### Preguntas clave
-1. ¿Qué factores demográficos o de comportamiento influyen más en la cancelación?
-2. ¿Qué características diferencian a los clientes leales de los que abandonan?
-3. ¿Cómo se pueden segmentar los clientes para diseñar estrategias personalizadas?
+1. ¿Cómo se distribuyen las empresas activas en comercio exterior en los departamentos de la región Costa?
+2. ¿Qué diferencias existen en el número promedio de trabajadores según el tipo de facturación y contabilidad?
+3. ¿Qué patrones se observan entre el número de trabajadores y el estado del comercio exterior (comercio_resumen) en los departamentos de la Costa?
 
 ### Metodología
-- **Preprocesamiento de datos:** Se limpiaron y estandarizaron los datos, eliminando inconsistencias y verificando la ausencia de duplicados y valores faltantes.
-- **Explorartory Data Analysis (EDA):** Se analizaron características demográficas y de uso, identificando patrones en clientes que permanecen y los que cancelan.
-- **Modelado predictivo:** Se entrenaron modelos de regresión logística y bosque aleatorio para predecir la cancelación de clientes con un precisión del 85% y 84%, respectivamente.
-- **Clustering:** Se segmentaron los clientes en grupos utilizando K-means para identificar comportamientos similares.
+- **Preprocesamiento de datos:**
+- Se limpiaron y estandarizaron los datos, eliminando inconsistencias y verificando la ausencia de duplicados y valores faltantes.
+- Se filtraron los datos para incluir solo los departamentos de la región Costa: Lima, Callao, Piura, Lambayeque, Tumbes, Ica y La Libertad.
+- **Explorartory Data Analysis (EDA):**
+- Se realizó un análisis descriptivo para explorar el número de empresas activas e inactivas en comercio exterior por departamento.
+- Se calcularon medidas estadísticas (promedio, mediana, percentiles) del número de trabajadores según comercio_resumen, tipofacturacion y tipocontabilidad.
 
 ### Conclusiones y recomendaciones
 
