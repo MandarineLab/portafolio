@@ -28,16 +28,7 @@ En un contexto económico en constante cambio, el análisis de datos administrat
 
 ### Herramientas y tipo de proyecto
 
-![Python](https://img.shields.io/badge/Python-357ebd?style=for-the-badge&logo=python&logoColor=white)  
-![pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)  
-![NumPy](https://img.shields.io/badge/NumPy-%23357ebd.svg?style=for-the-badge&logo=numpy&logoColor=white)  
-![Matplotlib](https://img.shields.io/badge/Matplotlib-357ebd?style=for-the-badge)  
-![Data Cleaning](https://img.shields.io/badge/Limpieza_de_datos-295F98?style=for-the-badge)  
-![Data Transformation](https://img.shields.io/badge/Transformación_de_datos-295F98?style=for-the-badge)  
-![Data Filtering](https://img.shields.io/badge/Filtrado_por_región-295F98?style=for-the-badge)  
-![Automated Processing](https://img.shields.io/badge/Automatización_de_procesos-295F98?style=for-the-badge)  
-![RUC Analysis](https://img.shields.io/badge/Análisis_del_Padrón_RUC-295F98?style=for-the-badge)  
-![Región Costa](https://img.shields.io/badge/Filtrado_Región_Costa-295F98?style=for-the-badge)  
+![Python](https://img.shields.io/badge/Python-357ebd?style=for-the-badge&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)  ![NumPy](https://img.shields.io/badge/NumPy-%23357ebd.svg?style=for-the-badge&logo=numpy&logoColor=white)  ![Matplotlib](https://img.shields.io/badge/Matplotlib-357ebd?style=for-the-badge)  ![Data Cleaning](https://img.shields.io/badge/Limpieza_de_datos-295F98?style=for-the-badge)  ![Data Transformation](https://img.shields.io/badge/Transformación_de_datos-295F98?style=for-the-badge)  ![Data Filtering](https://img.shields.io/badge/Filtrado_por_región-295F98?style=for-the-badge)  ![Automated Processing](https://img.shields.io/badge/Automatización_de_procesos-295F98?style=for-the-badge)  ![RUC Analysis](https://img.shields.io/badge/Análisis_del_Padrón_RUC-295F98?style=for-the-badge)  
 
 
 ### Preguntas clave
