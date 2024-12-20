@@ -64,7 +64,7 @@ En un contexto económico en constante cambio, el análisis de datos administrat
 ### Visualizaciones destacadas
 1. **Distribución de cancelación según duración del contrato:** Observamos que quienes cancelaron suelen contratar en su mayoría 1 mes, al igual que quienes no cancelan. Sin embargo, quienes permanecen suelen también contratar por periodos de 1 año y 6 meses, mientras que los que cancelan en su minoría contratan en dichos periodos.
 ![distribucion_porcentual_empresas_activas](/assets/img/distribucion_porcentual_empresas_activas.png)
-
+![distribucion_porcentual_empresas_activas](https://github.com/user-attachments/assets/12823e1c-696f-4bed-a8f5-a2f268c6ac4d)
 
 3. **Matriz de correlaciones:** Se encontró que Las características `month_to_end_contract` y `contract_period` están altamente correlacionadas (0.9), lo que sugiere que se debe tener cuidado con la multicolinealidad al desarrollar modelos predictivos.
 ![Corr Matrix Churn Data](/assets/img/distribucion_porcentual_tipo_facturacion.png)![Uploading distribucion_porcentual_tipo_facturacion.jpg…]()
