@@ -37,15 +37,9 @@ En un contexto económico en constante cambio, el análisis de datos administrat
 3. ¿Qué patrones se observan entre el número de trabajadores y el estado del comercio exterior `comercio_resumen` en los departamentos de la Costa?
 
 ### Metodología
-- **Preprocesamiento de datos:**
-- Se limpiaron y estandarizaron los datos, eliminando inconsistencias y verificando la ausencia de duplicados y valores faltantes.
-- Se filtraron los datos para incluir solo los departamentos de la región Costa: Lima, Callao, Piura, Lambayeque, Tumbes, Ica y La Libertad.
-- **Explorartory Data Analysis (EDA):**
-- Se realizó un análisis descriptivo para explorar el número de empresas activas e inactivas en comercio exterior por departamento.
-- Se calcularon medidas estadísticas (promedio, mediana, percentiles) del número de trabajadores según comercio_resumen, tipofacturacion y tipocontabilidad.
-- **Automatización para el procesamiento de información:**
-- Se diseñó una función en *Python* para automatizar la carga, filtrado, procesamiento y limpieza del padrón RUC.
-- Se aplicó la función a la base del siguiente periodo (agosto 2024).
+**Preprocesamiento de datos:** Se limpiaron, estandarizaron y filtraron los datos, eliminando inconsistencias y verificando la ausencia de duplicados y valores faltantes. 
+**Explorartory Data Analysis (EDA):** Se realizó un análisis descriptivo para explorar el número de empresas activas e inactivas en comercio exterior por departamento. Además, se calcularon medidas estadísticas (promedio, mediana, percentiles) del número de trabajadores según comercio_resumen, tipofacturacion y tipocontabilidad.
+**Automatización para el procesamiento de información:** Se diseñó una función en *Python* para automatizar la carga, filtrado, procesamiento y limpieza del padrón RUC. Además, se aplicó la función a la base del siguiente periodo (agosto 2024).
 
 ### Conclusiones 
 
@@ -61,3 +55,22 @@ En un contexto económico en constante cambio, el análisis de datos administrat
 ![distribucion_porcentual_tipo_facturacion](/assets/img/distribucion_porcentual_tipo_facturacion.jpg)
 
 **Explora más detalles del proyecto en el [repositorio completo](https://github.com/MaleGoma/customer-retention-analysis).**
+
+## Análisis de patrones en el Padrón RUC
+El análisis del **sistema financiero** es clave para evaluar la estabilidad económica de un país. Este proyecto busca generar una herramienta de inteligencia financiera para Perú que permita a los tomadores de decisiones anticipar cambios en el mercado y tomar decisiones más estratégicas. Se usa información pública del **Banco Central de Reserva del Perú (BCRP)**.
+
+### Preguntas clave
+1. ¿Qué patrones pueden observarse en las variables financieras principales al compararlas con el tipo de cambio promedio?
+2. ¿Qué resultados arrojan las pruebas estadísticas al comparar los valores reales y estimados de las variables clave?
+
+### Metodología
+- **Preprocesamiento de datos:** Se limpiaron, estandarizaron los datos, eliminando inconsistencias y verificando la ausencia de duplicados y valores faltantes. Además se crearon **variables temporales**: `año` , `mes`, `día` y una columna `fecha` en formato *dd-mm-yy*.
+- **Unión de la información:** Se realizó un merge por fecha para consolidar las distintas series procesadas y se calculó el tipo de cambio promedio (`tc_promedio`) como el promedio entre el tipo de cambio de compra y venta.
+- **Análisis de información:** Se calculó estadísticas descriptivas y crearon gráficos de línea para cada serie.
+- **Modelado econométrico:** Se estimó una regresión lineal simple con el `tc_promedio` como variable dependiente. Además, se aplicaron un test de medias y el test de Kolmogorov-Smirnov para comparar los valores reales y estimados de las variables clave.
+
+#### Factores críticos de retención:
+- La proximidad al gimnasio, contratos más largos, la participación en sesiones grupales y mayor frecuencia de visitas están fuertemente asociados con una menor tasa de cancelación.
+- Clientes jóvenes, con contratos cortos y baja frecuencia de visitas, tienen mayores tasas de cancelación.
+
+
