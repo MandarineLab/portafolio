@@ -64,18 +64,22 @@ El análisis del **sistema financiero** es clave para evaluar la estabilidad eco
 2. ¿Qué resultados arrojan las pruebas estadísticas al comparar los valores reales y estimados de las variables clave?
 
 ### Metodología
-- **Preprocesamiento de datos:** Se limpiaron, estandarizaron los datos, eliminando inconsistencias y verificando la ausencia de duplicados y valores faltantes. Además se crearon **variables temporales**: `año` , `mes`, `día` y una columna `fecha` en formato *dd-mm-yy*.
+- **Preprocesamiento de datos:** Se limpiaron, estandarizaron los datos, eliminando inconsistencias y verificando la ausencia de duplicados y valores faltantes. Además se crearon *variables temporales*: `año` , `mes`, `día` y una columna `fecha` en formato *dd-mm-yy*.
 - **Unión de la información:** Se realizó un merge por fecha para consolidar las distintas series procesadas y se calculó el tipo de cambio promedio (`tc_promedio`) como el promedio entre el tipo de cambio de compra y venta.
 - **Análisis de información:** Se calculó estadísticas descriptivas y crearon gráficos de línea para cada serie.
-- **Modelado econométrico:** Se estimó una regresión lineal simple con el `tc_promedio` como variable dependiente. Además, se aplicaron un test de medias y el test de Kolmogorov-Smirnov para comparar los valores reales y estimados de las variables clave.
+- **Modelado econométrico:** Se estimó una regresión lineal simple con el TC Intercambiario proemdio (`tc_promedio`) como variable dependiente. Además, se aplicaron un test de medias y el test de Kolmogorov-Smirnov para comparar los valores reales y estimados de las variables clave.
 
-### Conclusiones y recomendaciones
+### Conclusiones
 
-#### :
--
+### Resultados del modelo
+- El TC interbancario promedio es explicado por las `reservas_internacionales` (Reservas internacionales netas), `tasa_interes` (Tasa de interés interbancaria S/) , `bono_soles` (Rendimiento del Bono del gobierno peruano a 10 años) y el `indice_bvl` (ndice General Bursátil BVL)
+- Los tests estadísticos sugieren que los valores predichos y valores reales son signidicativamente iguales en medias y distribución.
+
+#### Interpretación económica:
+- El comportamiento del TC interbancario promedio refleja la interacción entre las fuerzas de mercado y las decisiones de política monetaria del BCRP.
 
 ### Visualizaciones destacadas
-1. **Distribución de cancelación según duración del contrato:** Observamos que quienes cancelaron suelen contratar en su mayoría 1 mes, al igual que quienes no cancelan. Sin embargo, quienes permanecen suelen también contratar por periodos de 1 año y 6 meses, mientras que los que cancelan en su minoría contratan en dichos periodos.
-![Contract Period Histogram](/assets/img/p01_contract_period_histogram.png)
+1. **Fluctuación del TC Intercambiario promedio:** El comportamiento del TC promedio muestra una volatilidad entre febrero y octubre. Se observan varios picos que superan el 0.5% de variación porcentual positiva, pero también caídas que alcanzan casi el -1%.
+![variaciones_tc](/assets/img/variaciones_tc.jpg)
 
 
