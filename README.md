@@ -59,6 +59,12 @@ En un contexto económico en constante cambio, el análisis de datos administrat
 ## Análisis de patrones en el Padrón RUC
 El análisis del **sistema financiero** es clave para evaluar la estabilidad económica de un país. Este proyecto busca generar una herramienta de inteligencia financiera para Perú que permita a los tomadores de decisiones anticipar cambios en el mercado y tomar decisiones más estratégicas. Se usa información pública del **Banco Central de Reserva del Perú (BCRP)**.
 
+### Herramientas y tipo de proyecto
+
+![tidyverse](https://img.shields.io/badge/tidyverse-2b2d39?style=for-the-badge&logo=r&logoColor=white) ![writexl](https://img.shields.io/badge/writexl-3473c7?style=for-the-badge&logo=r&logoColor=white) ![readr](https://img.shields.io/badge/readr-3473c7?style=for-the-badge&logo=r&logoColor=white) ![ggplot2](https://img.shields.io/badge/ggplot2-3473c7?style=for-the-badge&logo=r&logoColor=white) ![dplyr](https://img.shields.io/badge/dplyr-3473c7?style=for-the-badge&logo=r&logoColor=white) ![stringr](https://img.shields.io/badge/stringr-3473c7?style=for-the-badge&logo=r&logoColor=white) ![lubridate](https://img.shields.io/badge/lubridate-3473c7?style=for-the-badge&logo=r&logoColor=white) ![tidyr](https://img.shields.io/badge/tidyr-3473c7?style=for-the-badge&logo=r&logoColor=white) ![DBI](https://img.shields.io/badge/DBI-3473c7?style=for-the-badge&logo=r&logoColor=white) ![readxl](https://img.shields.io/badge/readxl-3473c7?style=for-the-badge&logo=r&logoColor=white) ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white) ![Financial Data](https://img.shields.io/badge/Datos_financieros-295F98?style=for-the-badge)
+
+
+
 ### Preguntas clave
 1. ¿Qué patrones pueden observarse en las variables financieras principales al compararlas con el tipo de cambio promedio?
 2. ¿Qué resultados arrojan las pruebas estadísticas al comparar los valores reales y estimados de las variables clave?
@@ -71,7 +77,7 @@ El análisis del **sistema financiero** es clave para evaluar la estabilidad eco
 
 ### Conclusiones
 
-### Resultados del modelo
+#### Resultados del modelo:
 - El TC interbancario promedio es explicado por las `reservas_internacionales` (Reservas internacionales netas), `tasa_interes` (Tasa de interés interbancaria S/) , `bono_soles` (Rendimiento del Bono del gobierno peruano a 10 años) y el `indice_bvl` (ndice General Bursátil BVL)
 - Los tests estadísticos sugieren que los valores predichos y valores reales son signidicativamente iguales en medias y distribución.
 
