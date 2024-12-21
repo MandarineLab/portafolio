@@ -69,8 +69,13 @@ El análisis del **sistema financiero** es clave para evaluar la estabilidad eco
 - **Análisis de información:** Se calculó estadísticas descriptivas y crearon gráficos de línea para cada serie.
 - **Modelado econométrico:** Se estimó una regresión lineal simple con el `tc_promedio` como variable dependiente. Además, se aplicaron un test de medias y el test de Kolmogorov-Smirnov para comparar los valores reales y estimados de las variables clave.
 
-#### Factores críticos de retención:
-- La proximidad al gimnasio, contratos más largos, la participación en sesiones grupales y mayor frecuencia de visitas están fuertemente asociados con una menor tasa de cancelación.
-- Clientes jóvenes, con contratos cortos y baja frecuencia de visitas, tienen mayores tasas de cancelación.
+### Conclusiones y recomendaciones
+
+#### :
+-
+
+### Visualizaciones destacadas
+1. **Distribución de cancelación según duración del contrato:** Observamos que quienes cancelaron suelen contratar en su mayoría 1 mes, al igual que quienes no cancelan. Sin embargo, quienes permanecen suelen también contratar por periodos de 1 año y 6 meses, mientras que los que cancelan en su minoría contratan en dichos periodos.
+![Contract Period Histogram](/assets/img/p01_contract_period_histogram.png)
 
 
